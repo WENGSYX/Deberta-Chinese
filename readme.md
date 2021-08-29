@@ -24,4 +24,4 @@ model = AutoModel.from_pretrained("WENGSYX/Deberta-Chinese-Large")
 ```
 
 
-
+#### 注意，请使用BertTokenizer加载中文词表
