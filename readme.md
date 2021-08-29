@@ -19,6 +19,8 @@
 依托于huggingface-transformers
 
 ```
+from transformers import BertTokenizer,AutoModel
+
 tokenizer = BertTokenizer.from_pretrained("WENGSYX/Deberta-Chinese-Large")
 model = AutoModel.from_pretrained("WENGSYX/Deberta-Chinese-Large")
 ```
