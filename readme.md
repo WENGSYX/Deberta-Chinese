@@ -20,7 +20,7 @@
 
 ```
 tokenizer = BertTokenizer.from_pretrained("WENGSYX/Deberta-Chinese-Large")
-model = BertModel.from_pretrained("WENGSYX/Deberta-Chinese-Large")
+model = AutoModel.from_pretrained("WENGSYX/Deberta-Chinese-Large")
 ```
 
 
